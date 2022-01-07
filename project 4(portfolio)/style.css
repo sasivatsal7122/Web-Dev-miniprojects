@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.full-page{
+	background: #000;
+   width: 100%;
+	min-height: 100vh;
+	position: relative	;
+	color: #fff;
+	z-index: 1;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+.logo{
+	font-family: 'Odibee Sans', cursive;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-left: 10%;
+	transform: translateX(27px);
+
+}
+.worda{
+    color: #000;
+    font-family: 'Odibee Sans', cursive;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.wordb{
+	font-family: 'Odibee Sans', cursive;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bolder;
+   color: #FF6600;
+}
+
+.nav-btn{
+   text-align: right;
+   background: #FF6600;
+   padding: 10px 30px;
+   border-bottom-left-radius: 18px ;
+}
+.nav-btn ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+.nav-btn ul li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+}
+.leftbar{
+   width: 20%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+   background: #FF6600;
+
+}
+.row{
+	padding: 0 10%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 5%;
+}
+.left{
+   flex-basis: 40%;
+
+}
+.right{
+	transform: translateY(-40px);
+	flex-basis: 55%;
+}
+.left img{
+	height: 50%;
+	width: 80%;
+	cursor: pointer;
+	border-radius: 20px;
+	transform: translateY(-40px);
+}
+.right h1{
+	font-family: 'Limelight', cursive;
+   font-size: 55px;
+	font-weight: 600;
+	transform: translateY(-30px);
+	color: #fff;
+}
+.right p{
+	color: #777;
+	margin: 20px 0 70px;
+	transform: translateY(-35px);
+}
+.icon{
+	display: flex;
+	margin-top: 30px;
+	transform: translateY(-35px);
+
+}
+.iconss{
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.iconss img{
+	width: 28px;
+}

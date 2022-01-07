@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+.top-bar{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.8s ease;
+    border: 0;
+}
+nav ul li a:hover{
+color: #F7971E;  
+color: -webkit-linear-gradient(to right, #FFD200, #F7971E);   Chrome 10-25, Safari 5.1-6 
+color: linear-gradient(to right, #FFD200, #F7971E); 
+}
+.header{
+	max-width: 1300px;
+	margin: auto;
+	padding: 0px 25px;
+	overflow: hidden;
+	height: 100vh;
+}
+.intro{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	transform: translateY(-50px);
+}
+#upss{
+	transform: translateY(-20px);
+}
+.intro1{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.intro1 img{
+	max-width: 100%;
+	padding: 50px 0px;
+}
+.intro1 h1{
+	font-size: 50px;
+	line-height: 55px;
+    margin: 25px 0px;
+    background: rgb(3,215,77);
+    background: linear-gradient(240deg, rgba(3,215,77,1) 12%, rgba(7,223,254,1) 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro p{
+     background: #FDC830;  /* fallback for old browsers 
+     background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+}
+.btnss {
+	display: inline-block;
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00  51%, #ee0979  100%);
+    text-decoration: none;
+    color: white;            
+    padding: 8px 30px;
+	margin: 30px 0px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
+
+
+    text-align: center;
+    background-size: 200% auto;
+}
+.btnss:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+         
